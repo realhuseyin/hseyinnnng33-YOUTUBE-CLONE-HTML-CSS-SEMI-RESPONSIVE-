@@ -1,0 +1,605 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Manrope&family=Nosifer&family=Open+Sans&family=Oswald:wght@500&family=Raleway:wght@100;300;400;500;600;700;800;900&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=IBM+Plex+Sans+KR&family=Manrope&family=Nosifer&family=Open+Sans&family=Oswald:wght@500&family=Raleway:wght@100;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Manrope&family=Nosifer&family=Open+Sans&family=Orienta&family=Oswald:wght@500&family=Raleway:wght@100;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Manrope&family=Nosifer&family=Open+Sans&family=Orienta&family=Oswald:wght@500&family=Raleway:wght@100;300;400;500;600;700;800;900&family=Trykker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Manrope&family=Nosifer&family=Open+Sans&family=Orienta&family=Oswald:wght@500&family=Raleway:wght@100;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Faster+One&family=Inter&family=Manrope&family=Nosifer&family=Orienta&family=Oswald:wght@500&family=Raleway:wght@100;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Faster+One&family=Inter&family=Manrope&family=Nosifer&family=Orienta&family=Oswald:wght@500&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Faster+One&family=Inter&family=Manrope&family=Nosifer&family=Orienta&family=Oswald:wght@500&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Faster+One&family=Inter&family=Luckiest+Guy&family=Manrope&family=Nosifer&family=Orienta&family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Faster+One&family=Inter&family=Manrope&family=Nosifer&family=Orienta&family=Oswald:wght@500&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Faster+One&family=Inter&family=Manrope&family=Nosifer&family=Orienta&family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Faster+One&family=Inter&family=Manrope&family=Nosifer&family=Orienta&family=Oswald:wght@500&family=Tourney:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Bungee+Outline&family=Faster+One&family=Inter&family=Manrope&family=Nosifer&family=Orienta&family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Caesar+Dressing&family=Faster+One&family=Inter&family=Manrope&family=Nosifer&family=Orienta&family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Faster+One&family=Inter&family=Libre+Barcode+39+Extended&family=Manrope&family=Nosifer&family=Orienta&family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Bayon&family=Black+Han+Sans&family=Faster+One&family=Inter&family=Manrope&family=Nosifer&family=Orienta&family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Faster+One&family=Inter&family=Manrope&family=Nabla&family=Nosifer&family=Orienta&family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Cinzel+Decorative&family=Faster+One&family=Inter&family=Manrope&family=Nosifer&family=Orienta&family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Faster+One&family=Inter&family=Manrope&family=Monoton&family=Nosifer&family=Orienta&family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Manrope&family=Nosifer&family=Open+Sans&family=Oswald:wght@500&family=Raleway:wght@100;300;400;500;600;700;800;900&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=IBM+Plex+Sans+KR&family=Manrope&family=Nosifer&family=Open+Sans&family=Oswald:wght@500&family=Raleway:wght@100;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Manrope&family=Nosifer&family=Open+Sans&family=Orienta&family=Oswald:wght@500&family=Raleway:wght@100;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Manrope&family=Nosifer&family=Open+Sans&family=Orienta&family=Oswald:wght@500&family=Raleway:wght@100;300;400;500;600;700;800;900&family=Trykker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asap&family=Black+Han+Sans&family=Manrope&family=Nosifer&family=Open+Sans&family=Orienta&family=Oswald:wght@500&family=Raleway:wght@100;300;400;500;600;700;800;900&display=swap');
+
+
+/* 
+<i class="fas fa-bars"></i>  <i class="far fa-bars"></i> hamburger menü
+<i class="far fa-microphone"></i> mikrafon
+<i class="far fa-search"></i> arama
+<i class="fas fa-ellipsis-v"></i>  <i class="far fa-ellipsis-v"></i> nokta
+<i class="fas fa-home-lg-alt"></i> ev
+<i class="fas fa-play"></i> short
+<i class="fas fa-list-alt"></i> liste
+<i class="far fa-play-circle"></i> kitaplık
+<i class="fas fa-history"></i> geçmiş
+<i class="fas fa-user-circle"></i> oturum aç
+<i class="fas fa-fire"></i> trendler
+<i class="far fa-music-alt"></i> müzikler
+<i class="fal fa-broadcast-tower"></i> canlı yayın
+<i class="fas fa-gamepad-alt"></i> oyun
+<i class="fas fa-trophy"></i> spor
+<i class="fab fa-youtube"></i> youtube
+<i class="fas fa-cog"></i> ayarlar
+<i class="far fa-flag"></i> içerik bildirme
+<i class="far fa-question-circle"></i> yardım
+<i class="far fa-question-circle"></i> geri bildirim
+<i class="far fa-badge-check"></i> dogrulandı
+
+
+*/
+
+#genel{
+    width: 100%;
+    /* height: 100%; */
+    background-color: #0f0f0f;
+    position: relative;
+    /* background-color: blue; */
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+nav{
+    width: 100%;
+    height: 56px;
+    display: flex;
+}
+
+nav .nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+nav .nav .nav-bir{
+    display: flex;
+    align-items: center;
+}
+
+nav .nav .nav-bir .fas{
+    color: #e8e8e8;
+    font-size: 18px;
+    
+}
+
+nav .nav .nav-bir h2{
+    margin-left: 20px;
+    font-size: 27px;
+    /* font-family: 'Trykker', serif; */
+    font-family: 'Poppins', sans-serif;
+    /* color: #fff; */
+    color: transparent;
+    text-transform: uppercase;
+    -webkit-text-stroke: 3px red;
+    letter-spacing: 2px;
+}
+
+nav .nav .nav-bir h2 i{
+    color: #ff0000;
+    font-size: 25px;
+}
+
+nav .nav .nav-iki{
+    display: flex;
+    align-items: center;
+}
+
+nav .nav .nav-iki .input input{
+    width: 540px;
+    height: 40px;
+    border-radius: 40px 0 0 40px;
+    border: 2px solid #303030;
+    background-color: #121212;
+    color: #fff;
+    padding-left: 20px;
+}
+
+nav .nav .nav-iki .input input::placeholder{
+    padding-left: 10px;
+    font-size: 15px;
+    color: #828581;
+    color: #fff;
+    font-family: "Roboto","Arial",sans-serif;
+
+}
+
+nav .nav .nav-iki .input  input::placeholder{
+    color: #fff;
+    padding-left: 10px;
+}
+
+nav .nav .nav-iki .input i{
+    display: inline-block;
+    color: #e2e2e2;
+    padding: 10px;
+    padding-right: 12px;
+    height: 40px;
+    width: 60px;
+    border-radius: 0 40px 40px 0;
+    text-align: center;
+    background-color: #353535;
+}
+
+nav .nav .nav-iki .fa-microphone{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #242323;
+    color: #fff;
+    margin-left: 10px;
+}
+
+nav .nav .nav-uc{
+    display: flex;
+    align-items: center;
+}
+
+nav .nav .nav-uc .fa-ellipsis-v{
+    color: #fff;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+nav .nav .nav-uc button{
+    background-color: #0f0f0f;
+    color: #155efc;
+    font-size: 17px;
+    border: 2px solid #303030;
+    border-radius: 20px;
+    padding: 7px 10px;
+    font-family: "Roboto","Arial",sans-serif;
+}
+
+nav .nav .nav-uc button:hover{
+    background-color: #8391ae;
+}
+
+
+
+
+#solbar{
+    width: 280px;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+::-webkit-scrollbar{
+    width: 7px;
+    background-color: #303030;
+    color: #fff;
+  }
+
+#solbar::-webkit-scrollbar-thumb{
+    background-color: #fff;
+    border-radius: 50px;
+}
+
+#solbar .solbar-icerik{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}   
+
+#solbar .solbar-icerik .bir{
+    padding: 12px 0;
+}
+
+#solbar .solbar-icerik .bir li{
+    padding: 10px 5px;
+    cursor: pointer;
+}
+
+#solbar .solbar-icerik .bir li:hover{
+    background-color: #272727;
+    border-radius: 10px;
+}
+
+#solbar .solbar-icerik .bir li a{
+    color: #fff;
+    align-items: center;
+    font-size: 16px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 300;
+}
+
+#solbar .solbar-icerik .bir li a i{
+    padding-right: 20px;
+    align-items: center;
+    /* display: inline-block; */
+}
+
+#solbar .solbar-icerik .yazi{
+    padding: 21px 2px;
+}
+
+#solbar .solbar-icerik .yazi p{
+    font-size: 14px;
+    line-height: 1.2rem;
+    font-weight: 400;
+    color: #f1f1f1;
+    font-family: "Roboto", "Arial", sans-serif;
+    margin-bottom: 8px;
+}
+
+#solbar .solbar-icerik .bir h3{
+    color: #f1f1f1;
+    font-size: 17px;
+    font-family: "Roboto", "Arial", sans-serif;
+    padding: 10px 0 5px 0;
+}
+
+#solbar .solbar-icerik h3{
+    color: #f1f1f1;
+    font-size: 17px;
+    font-family: "Roboto", "Arial", sans-serif;
+    padding: 16px 0 16px 0;
+    font-weight: 300;
+}
+
+#solbar .solbar-icerik h3 i{
+    padding-right: 20px;
+}
+
+#solbar .solbar-icerik .dort li a i{
+    color: #ff0000;
+}
+
+
+#genel1{
+    display: flex;
+}
+
+#genel1 main{
+    width: 100%;
+    height: auto;
+    padding-left: 30px;
+}
+
+#genel1 main section .ust-bar{
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    margin: auto auto;
+}
+
+#genel1 main section .ust-bar .ust-bar-ul{
+    display: flex;
+    align-items: center;
+}
+
+#genel1 main section .ust-bar .ust-bar-ul li:first-child{
+    padding: 8px 12px;
+    margin: 12px 12px 12px 0px;
+    background-color: #fff;
+}
+
+#genel1 main section .ust-bar .ust-bar-ul li:first-child a{
+    color: black;
+}
+
+#genel1 main section .ust-bar .ust-bar-ul li{
+    background-color: #272727;
+    color: #fff;
+    padding: 7px 12px;
+    margin: 12px 12px 12px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#genel1 main section .ust-bar .ust-bar-ul li:hover{
+    background-color: #7e7e7e;
+    transition: 1s;
+}
+
+#genel1 main section .ust-bar .ust-bar-ul li a{
+    color: #fff;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+#orta{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#orta section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#orta section .birinci-satir{
+    max-width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#orta section .birinci-satir .bilgi{
+    width: 295px;
+    margin: 0 5px;
+    margin-bottom: 40px;
+}
+
+#orta section .birinci-satir .bilgi img{
+    width: 295px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#orta section .birinci-satir .bilgi .yazi img{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin: 0px 12px 0px 0px;
+}
+
+#orta section .birinci-satir .bilgi .yazi{
+    display: flex;
+    padding-top: 5px;
+    align-items: center;
+}
+
+#orta section .birinci-satir .bilgi .yazi h2{
+    font-size: 14px;
+    font-family: "Roboto", "Arial", sans-serif;
+    color: #fff;
+    font-weight: 400;
+}
+
+#orta section .birinci-satir .bilgi .yazi-1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 48px;
+    padding-top: 4px;
+}
+
+#orta section .birinci-satir .bilgi .yazi-1 p{
+    color: #AAAAAA;
+    font-size: 12px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 400;
+    padding: 2px 0;
+    align-items: center;
+    display: flex;
+}
+
+#orta section .birinci-satir .bilgi .yazi-1 p span{
+    font-size: 14px;
+    margin-left: 4px;
+    align-items: center;
+}
+
+#main2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#main2 section h2{
+    font-size: 20px;
+    font-family: "Roboto", "Arial", sans-serif;
+    color: #fff;
+    font-weight: 400;
+}
+
+#main2 section .kartlar{
+    max-width: 1250px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#main2 section .kartlar .birinci{
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #212121;
+    border-radius: 10px;
+    border: 2px solid #454545;
+    padding: 10px;
+}
+
+#main2 section .kartlar .birinci .yazi{
+    display: flex;
+}
+
+#main2 section .kartlar .birinci .yazi img{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin: 0px 12px 0px 0px;
+}
+
+#main2 section .kartlar .birinci .yazi p{
+    color: #AAAAAA;
+    font-size: 12px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 400;
+    padding: 2px 0;
+    align-items: center;
+    display: flex;
+}
+
+#main2 section .kartlar .birinci .icerik{
+    display: flex;
+    padding: 10px 6px;
+}
+
+#main2 section .kartlar .birinci .icerik p{
+    color: #fff;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 14px;
+}
+
+#main2 section .kartlar .birinci .icerik img{
+    width: 116px;
+    border-radius: 20px;
+}
+
+#main2 section .kartlar .birinci .like{
+    display: flex;
+ 
+    
+}
+
+#main2 section .kartlar .birinci .like p{
+    color: #AAAAAA;
+    font-size: 15px;
+    align-items: center;
+    display: flex;
+    margin-right: 10px;
+}
+
+#main2 section .kartlar .birinci .like p span{
+    font-size: 16px;
+    color: #fff;
+    margin-right: 4px;
+}
+
+@media only screen and (max-width: 900px){
+    html,body{
+        overflow-x: hidden;
+       }
+
+       nav{
+        height: auto;
+       }
+
+       nav .nav{
+        padding: 10px 5px;
+        display: flex;
+        flex-wrap: wrap;
+       }
+
+       nav .nav .nav-bir{
+        align-items: center;
+       }
+
+       nav .nav .nav-bir h2 {
+        font-size: 15px;
+        margin-left: 5px;
+        display: flex;
+    }
+
+    nav .nav .nav-bir h2 i{
+        font-size: 15px;
+    }
+
+    nav .nav .nav-iki .input{
+        display: flex;
+    }
+
+    nav .nav .nav-iki .input input{
+        width: 130px;
+        height: 40px;
+    }
+
+    nav .nav .nav-iki{
+
+    }
+
+    nav .nav .nav-iki .fa-microphone{
+        margin-left: 5px;
+        
+    }
+
+    nav .nav .nav-iki .input  input::placeholder{
+        padding-left: 0px;
+    }
+
+    nav .nav .nav-iki .input i{
+        width: 40px;
+    }
+
+    nav .nav .nav-uc .fa-ellipsis-v{
+        margin-right: 5px;
+    }
+
+    nav .nav .nav-uc button{
+        font-size: 13px;
+        padding: 5px 5px;
+    }
+
+    nav .nav .nav-uc{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    
+
+    #orta section .birinci-satir{
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    #genel1 main{
+        padding-left: 0px;
+    }
+
+    #main2 section {
+        padding: 5px;
+    }
+    
+    #main2 section .kartlar .birinci{
+        margin: 10px 0;
+        width: 100%;
+    }
+
+}
+
+
+
